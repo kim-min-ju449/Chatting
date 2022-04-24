@@ -15,7 +15,7 @@ sendButton.addEventListener("click", ()=>{
         name: nickname.value,
         msg : chatInput.value
     }
-    socket.emit("chatting", "from front")
+    socket.emit("chatting", param)
 })
 
 
