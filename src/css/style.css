@@ -13,7 +13,8 @@ html, body{
     overflow: hidden;
 }
 .user-container{
-    background:#a9bdce;
+    /* background:#a9bdce; */
+    background:#f1f1f1;
     flex:1;
     display:flex;
     justify-content: flex-start;
@@ -31,7 +32,8 @@ html, body{
 }
 .display-container{
     flex:12;
-    background:#b2c7d9;
+    /* background:#b2c7d9; */
+    background:#f1f1f1;
     overflow-y:scroll;
 }
 .input-container{
@@ -56,6 +58,7 @@ html, body{
 .send-button{
     flex:1;
     background:#ffeb33;
+    /* background:#89fc89; */
     border: none;
     height: 100%;
     border-radius: 3px;
@@ -100,7 +103,8 @@ html, body{
     float: right;
 }
 .sent .message{
-    background:#ffeb33;
+    /* background:#ffeb33; */
+    background:#94ff94;
 }
 .received .message{
     background:#fff;
